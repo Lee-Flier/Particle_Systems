@@ -42,11 +42,11 @@ struct integrate_functor_Euler
     __device__
     void operator()(Particle_t &m)
     {
-        // new position = old position + velocity * deltaTime
-    m.vel += m.gravity * deltaTime;
-    m.vel *= globalDamping;
-  	m.pos += m.vel * deltaTime;
-  	m.age +=deltaTime;
+     // new position = old position + velocity * deltaTime
+     m.vel += m.gravity * deltaTime;
+     m.vel *= globalDamping;
+  	  m.pos += m.vel * deltaTime;
+  	  m.age +=deltaTime;
     }
 };
 
