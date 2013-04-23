@@ -23,6 +23,7 @@
 #include "..\Particle\pVec.h"
 #include "ParticleGroup.h"
 #include "Particle.h"
+
 using PAPI::pVec;
 using PAPI::ParticleList;
 using PAPI::Particle_t;
